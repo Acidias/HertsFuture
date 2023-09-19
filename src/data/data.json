@@ -1,8 +1,8 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
+    "title": "Herts Future - Evolving Our Craft",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
-    "url": "https://www.youtube.com/watch?v=VQKMoT-6XSg"
+    "url": "https://www.youtube.com/embed/sjYe_xLCorA"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -71,25 +71,29 @@
     {
       "icon": "fa",
       "location": "St Albans",
-      "date": "22 March 2017",
+      "date": "22 Nov 2023",
+      "image": "img/stalbans.jpg",
       "url": "#"
     },
     {
       "icon": "fa",
       "location": "Cheshunt",
-      "date": "22 March 2017",
+      "date": "22 Nov 2023",
+      "image": "img/cheshunt.jpg",
+      "url": "#"
+    },
+    {
+      "icon": "fa",
+      "location": "Letchworth",
+      "date": "22 Nov 2023",
+      "image": "img/letchworth.jpg",
       "url": "#"
     },
     {
       "icon": "fa",
       "location": "Virtual",
-      "date": "22 March 2017",
-      "url": "#"
-    },
-    {
-      "icon": "fa",
-      "location": "London",
-      "date": "22 March 2017",
+      "date": "22 Nov 2023",
+      "image": "img/virtual.jpg",
       "url": "#"
     }
   ],

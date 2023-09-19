@@ -5,11 +5,12 @@ export const Testimonials = (props) => {
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Introduction</h2>
+          <h2>EVOLVING OUR CRAFT</h2>
         </div>
         <div className="introduction text-center">
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          <p>Lodges are the heartbeat of our province, and we invite your lodge to be a pioneer in the culture shift within our noble fraternity. We present to you, Herts Future, a catalyst to drive improved engagement and greater enjoyment in our Lodges.
 
+This initiative empowers each lodge to reflect, assess, enhance and share the way they operate, encouraging us all to collectively shape the future.
 </p>
         </div>
       </div>
