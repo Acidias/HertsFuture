@@ -342,6 +342,11 @@ header .intro-text {
    font-weight: 300;
    padding-right: 8px;
 }
+
+img {
+  border-radius: 50%;
+}
+
 #about img {
    width: 520px;
    margin-top: 10px;
