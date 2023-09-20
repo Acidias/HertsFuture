@@ -525,7 +525,7 @@ header .intro-text {
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
 }  
 .introduction p {
-   font-size: 20px; /* Default size for desktop */
+   font-size: 16px; /* Default size for desktop */
    max-width: 800px; /* Ensuring long lines are readable */
    margin: 0 auto; /* Center the text block if it's less than max-width */
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
@@ -541,7 +541,7 @@ header .intro-text {
 /* Media query for mobile screens */
 @media (max-width: 767px) {
    .introduction p {
-      font-size: 14px;
+      font-size: 16px;
    }
 }
 
