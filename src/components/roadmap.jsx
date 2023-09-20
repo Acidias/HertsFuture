@@ -9,6 +9,7 @@ export const Roadmap = (props) => {
           <h2>LODGE PROFILE</h2>
         </div>
       </div>
+        <br/><br/>
         <div className="roadmap text-center">
           <p>
 Each lodge is required to fill in a profile form, this not only provides vital information for the province, but empowers you to reflect on your lodge health. The simple three step process is below:</p>
