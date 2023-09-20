@@ -19,7 +19,7 @@ export const Header = (props) => {
               <div className="text-center mt-[25]">
                 <img src="../img/Logo-white.png" alt="Logo" className="header-logo"/>
               </div>
-              <br/><br/>
+              <br/>
               {/* Video */}
               <div className="text-center my-[25] mx-auto w-2/3"> {/* Added `mx-auto` and `w-1/2` here */}
                 <div className="header-video aspect-video">
