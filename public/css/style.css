@@ -227,10 +227,14 @@ a:focus,
 }
 /* Header Section */
 .intro {
+   background: url(../img/HF-Patten-RGB-1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed; /* Added this line */
    display: table;
    width: 100%;
    padding: 0;
-   background: url(../img/HF-Patten-RGB-1.png);
    -webkit-background-size: cover;
    -moz-background-size: cover;
    background-size: cover;
@@ -632,7 +636,11 @@ header .intro-text {
 
 /* Events */
 #events {
-   background-color: #003056;
+   background: url(../img/HF-Patten-RGB-1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed; /* Added this line */
    padding: 50px 0;
 }
 
