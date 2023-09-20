@@ -494,10 +494,12 @@ header .intro-text {
 }
 
 .roadmap h2 {
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 15px;
+   padding-bottom: 15px;
+   font-size: 50px;
    text-transform: uppercase;
-   margin: 0 0 20px;
-   font-weight: 800;
-   font-size: 36px;
    color: white;
 }
 
@@ -680,7 +682,7 @@ withthisstyling: Icons will have a white,
 
 .img-circle{
    border-radius:50%;
-   max-width: 75%;
+   max-width: 100%;
    height: auto; 
 }
 
