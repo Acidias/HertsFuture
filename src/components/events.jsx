@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Events = (props) => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div id="events" className="text-center">
       <div className="container">
-        <div className="section-title">
+        <div className="section-title" data-aos="fade-up">
           <h2>Events Workshops</h2>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center" data-aos="fade-up">
         {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.location}-${i}`} className="col-xs-6 col-md-3">
