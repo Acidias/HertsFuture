@@ -11,7 +11,7 @@ export const Roadmap = (props) => {
       </div>
         <div className="roadmap text-center">
           <p>
-           It all starts with a lodge profile, once completed, Lodges will be given a page on the new Provincial website in 2024. They will also be included on the UGLE and Provincial ‘new candidate placement’ list. Lodges who provide a quality profile of the very highest standard will be given a Provincial Certificate of Excellence.</p>
+Each lodge is required to fill in a profile form, this not only provides vital information for the province, but empowers you to reflect on your lodge health. The simple three step process is below:</p>
         </div>
       <br/><br/>
       <div className="container">
