@@ -70,6 +70,14 @@ hr {
    margin-bottom: 20px;
    border: 0;
 }
+
+.blue-bg-hertsD {
+   background-color: rgb(19, 50, 94);
+}
+
+.blue-bg-hertsL {
+   background-color: rgb(128, 156, 186);
+}
 /* Navigation */
 #menu {
    padding: 15px;
@@ -148,6 +156,7 @@ hr {
    margin-top: 10px;
    margin-bottom: 15px;
    padding-bottom: 15px;
+   font-size: 50px;
 }
 .section-title h2::after {
    position: absolute;
@@ -208,8 +217,7 @@ a:focus,
    display: table;
    width: 100%;
    padding: 0;
-   //background: url(../img/intro-bg.jpg) center center no-repeat;
-   background-color: #003056;
+   background: url(../img/HF-Patten-RGB-1.png);
    -webkit-background-size: cover;
    -moz-background-size: cover;
    background-size: cover;
@@ -253,9 +261,9 @@ header .intro-text {
 
 .header-logo {
    width: 80%;
-   max-width: 300px;
+   max-width: 400px;
    height: auto;
-   margin: 30px auto 10px; /* Reduced top margin to 30px and bottom margin to 10px */
+   margin: auto; /* Reduced top margin to 30px and bottom margin to 10px */
 }
 
 /* Media query for tablets and smaller screens */
@@ -263,10 +271,6 @@ header .intro-text {
    .header-logo {
       width: 90%;
       margin: 25px auto 8px; /* Adjust spacing for tablets */
-   }
-
-   .header-video video {
-      width: 80%; /* Adjust video width for tablets */
    }
 }
 
@@ -276,10 +280,6 @@ header .intro-text {
       width: 30%;
       max-width: none;
       margin: 20px auto 5px; /* Adjust spacing for mobile screens */
-   }
-
-   .header-video video {
-      width: 90%; /* Adjust video width for mobile screens */
    }
 
    .intro h1 {
@@ -343,6 +343,8 @@ header .intro-text {
    font-weight: 300;
    padding-right: 8px;
 }
+
+
 #about img {
    width: 520px;
    margin-top: 10px;
@@ -491,8 +493,27 @@ header .intro-text {
    margin-bottom: 50px; /* Space between the title and the introduction */
 }
 
+.roadmap h2 {
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 15px;
+   padding-bottom: 15px;
+   font-size: 50px;
+   text-transform: uppercase;
+   color: white;
+}
+
+.roadmap p {
+   font-weight: bold;
+   color: white; 
+   font-size: 20px; /* Default size for desktop */
+   max-width: 800px; /* Ensuring long lines are readable */
+   margin: 0 auto; /* Center the text block if it's less than max-width */
+   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
+}  
 .introduction p {
-   font-size: 18px; /* Default size for desktop */
+   font-weight: bold;
+   font-size: 20px; /* Default size for desktop */
    max-width: 800px; /* Ensuring long lines are readable */
    margin: 0 auto; /* Center the text block if it's less than max-width */
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
@@ -514,13 +535,17 @@ header .intro-text {
 
 /* RoadMap */
 #roadmap {
-   background-color: #003056;
+   background: url(../img/HF-Patten-RGB-1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed; /* Added this line */
    padding: 50px 0;
 }
 
 .circle {
-   width: 150px;
-   height: 150px;
+   width: 90px;
+   height: 90px;
    background-color: white;
    color: #003056;
    border-radius: 50%;
@@ -528,15 +553,15 @@ header .intro-text {
    line-height: 100px;
    vertical-align: middle; /* This helps to align text vertically centered */
    font-weight: bold;
-   margin: 0 20px; /* Spacing around each circle */
+   margin: 0 10px; /* Spacing around each circle */
 }
 
 .arrow {
-   font-size: 80px; /* Adjust size as needed */
+   font-size: 50px; /* Adjust size as needed */
    color: white; /* Color of the arrow */
    display: inline-block;
    vertical-align: middle; /* Align it with the circles */
-   margin: 0 20px; /* Adjust spacing between the arrow and circles */
+   margin: 0 10px; /* Adjust spacing between the arrow and circles */
 }
 
 #roadmap .buttons {
@@ -654,6 +679,13 @@ withthisstyling: Icons will have a white,
 #team h4 {
    margin: 5px 0;
 }
+
+.img-circle{
+   border-radius:50%;
+   max-width: 100%;
+   height: auto; 
+}
+
 #team .team-img {
    width: 240px;
 }
@@ -819,6 +851,13 @@ label {
    background: #f6f6f6;
 }
 
+.incentive p {
+   font-weight: bold;
+   font-size: 20px; /* Default size for desktop */
+   max-width: 800px; /* Ensuring long lines are readable */
+   margin: 0 auto; /* Center the text block if it's less than max-width */
+   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
+}  
 .incentive ul {
    list-style-type: disc; /* This sets the bullet points */
    padding-left: 20px; /* Space from the left side to align bullets */

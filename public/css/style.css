@@ -544,8 +544,8 @@ header .intro-text {
 }
 
 .circle {
-   width: 150px;
-   height: 150px;
+   width: 90px;
+   height: 90px;
    background-color: white;
    color: #003056;
    border-radius: 50%;
@@ -553,15 +553,15 @@ header .intro-text {
    line-height: 100px;
    vertical-align: middle; /* This helps to align text vertically centered */
    font-weight: bold;
-   margin: 0 20px; /* Spacing around each circle */
+   margin: 0 10px; /* Spacing around each circle */
 }
 
 .arrow {
-   font-size: 80px; /* Adjust size as needed */
+   font-size: 50px; /* Adjust size as needed */
    color: white; /* Color of the arrow */
    display: inline-block;
    vertical-align: middle; /* Align it with the circles */
-   margin: 0 20px; /* Adjust spacing between the arrow and circles */
+   margin: 0 10px; /* Adjust spacing between the arrow and circles */
 }
 
 #roadmap .buttons {
