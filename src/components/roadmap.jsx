@@ -3,7 +3,7 @@ import React from "react";
 export const Roadmap = (props) => {
   return (
     <div id="roadmap" className="text-center">
-        <br/>
+        <br/><br/>
       <div className="container">
         <div className="roadmap text-center">
           <h2>LODGE PROFILE</h2>
