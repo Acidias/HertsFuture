@@ -5,16 +5,11 @@ export const Incentive = (props) => {
     <div id="incentive">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Incentive</h2>
+          <h2>How does it work?</h2>
         </div>
         <div className="incentive text-center">
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</li>
-            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
-            <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</li>
-          </ul>
+          <p>
+           It all starts with a lodge profile, once completed, Lodges will be given a page on the new Provincial website in 2024. They will also be included on the UGLE and Provincial ‘new candidate placement’ list. Lodges who provide a quality profile of the very highest standard will be given a Provincial Certificate of Excellence.</p> 
         </div>
       </div>
     </div>

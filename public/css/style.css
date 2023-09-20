@@ -156,6 +156,7 @@ hr {
    margin-top: 10px;
    margin-bottom: 15px;
    padding-bottom: 15px;
+   font-size: 50px;
 }
 .section-title h2::after {
    position: absolute;
@@ -260,7 +261,7 @@ header .intro-text {
 
 .header-logo {
    width: 80%;
-   max-width: 300px;
+   max-width: 400px;
    height: auto;
    margin: auto; /* Reduced top margin to 30px and bottom margin to 10px */
 }
@@ -492,8 +493,25 @@ header .intro-text {
    margin-bottom: 50px; /* Space between the title and the introduction */
 }
 
+.roadmap h2 {
+   text-transform: uppercase;
+   margin: 0 0 20px;
+   font-weight: 800;
+   font-size: 36px;
+   color: white;
+}
+
+.roadmap p {
+   font-weight: bold;
+   color: white; 
+   font-size: 20px; /* Default size for desktop */
+   max-width: 800px; /* Ensuring long lines are readable */
+   margin: 0 auto; /* Center the text block if it's less than max-width */
+   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
+}  
 .introduction p {
-   font-size: 18px; /* Default size for desktop */
+   font-weight: bold;
+   font-size: 20px; /* Default size for desktop */
    max-width: 800px; /* Ensuring long lines are readable */
    margin: 0 auto; /* Center the text block if it's less than max-width */
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
@@ -660,7 +678,11 @@ withthisstyling: Icons will have a white,
    margin: 5px 0;
 }
 
-.img-circle{border-radius:50%}
+.img-circle{
+   border-radius:50%;
+   max-width: 75%;
+   height: auto; 
+}
 
 #team .team-img {
    width: 240px;
@@ -827,6 +849,13 @@ label {
    background: #f6f6f6;
 }
 
+.incentive p {
+   font-weight: bold;
+   font-size: 20px; /* Default size for desktop */
+   max-width: 800px; /* Ensuring long lines are readable */
+   margin: 0 auto; /* Center the text block if it's less than max-width */
+   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
+}  
 .incentive ul {
    list-style-type: disc; /* This sets the bullet points */
    padding-left: 20px; /* Space from the left side to align bullets */
