@@ -343,9 +343,6 @@ header .intro-text {
    padding-right: 8px;
 }
 
-img {
-  border-radius: 50%;
-}
 
 #about img {
    width: 520px;
@@ -662,6 +659,9 @@ withthisstyling: Icons will have a white,
 #team h4 {
    margin: 5px 0;
 }
+
+.img-circle{border-radius:50%}
+
 #team .team-img {
    width: 240px;
 }
