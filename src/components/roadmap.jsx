@@ -21,13 +21,23 @@ Each lodge is required to fill in a profile form, this not only provides vital i
         </div>
       <br/><br/>
       <div className="container" >
-        <div className="circles mb-6">
-          <div className="circle" data-aos="fade-up">PREPARE</div>
-          <div className="arrow">&gt;</div>
-          <div className="circle" data-aos="fade-up">COMPLETE</div>
-          <div className="arrow">&gt;</div>
-          <div className="circle" data-aos="fade-up">SUBMIT</div>
-        </div>
+<div className="circles mb-6">
+  <div>
+  <div className="circle-month" data-aos="fade-up">OCT</div>
+  <div className="circle" data-aos="fade-up">PREPARE</div>
+  </div>
+  <div className="arrow">&gt;</div>
+  <div>
+  <div className="circle-month" data-aos="fade-up">NOV</div>
+  <div className="circle" data-aos="fade-up">COMPLETE</div>
+  </div>
+  <div className="arrow">&gt;</div>
+  <div>
+  <div className="circle-month" data-aos="fade-up">DEC</div>
+  <div className="circle" data-aos="fade-up">SUBMIT</div>
+  </div>
+</div>
+
         <div className="buttons">
           <a href="https://forms.gle/xxycEHCLVYyNNxNX9" className="btn btn-primary">Lodge Profile Form</a>
           <br/><br/>

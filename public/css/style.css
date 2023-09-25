@@ -533,7 +533,7 @@ header .intro-text {
    max-width: 800px; /* Ensuring long lines are readable */
    margin: 0 auto; /* Center the text block if it's less than max-width */
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
-}  
+}
 
 /* Media query for tablets */
 @media (max-width: 991px) {
@@ -593,6 +593,15 @@ header .intro-text {
    align-items: center;
    justify-content: center;
 }
+.circle-month {
+   font-size: 20px; /* Adjust size as needed */
+   color: white; /* Adjust color as needed */
+   text-align: center;
+   font-weight: bold;
+
+   margin-bottom: 5px; /* Space between month and circle */
+}
+
 .arrow {
    font-size: 80px; /* Adjust size as needed */
    color: white; /* Color of the arrow */
@@ -699,7 +708,7 @@ header .intro-text {
 }
 
 .btn-primary {
-   background-color: white;
+   background-color: #ffcb05; /* PGL GOLD color */
    color: #003056; /* Blue text */
    border: none;
    padding: 10px 20px;
@@ -708,7 +717,7 @@ header .intro-text {
 
 .btn-primary:hover,
 .btn-primary:focus {
-   background-color: #5ca9fb; /* Adjust as needed */
+   background-color: #e6a804; /* Darker yellow for hover and focus, adjust as needed */
    color: white;
 }
 
@@ -908,7 +917,7 @@ label {
 @media (min-width: 994px) {
    .introduction p {
       font-size: 24px;
-   }  
+   }
    .roadmap p {
       font-size: 24px;
    }
@@ -918,8 +927,7 @@ label {
    .events p {
       font-size: 24px;
    }
-}  
-    
+}
 
 /* INCENTIVES */
 #incentive {
