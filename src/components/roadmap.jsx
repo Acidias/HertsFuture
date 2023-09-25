@@ -29,8 +29,7 @@ Each lodge is required to fill in a profile form, this not only provides vital i
           <div className="circle" data-aos="fade-up">SUBMIT</div>
         </div>
         <div className="buttons">
-          <button className="roadmap-button" data-aos="fade-up">SEE THE FORM</button>
-          <button className="roadmap-button" data-aos="fade-up">SEE AN EXAMPLE</button>
+          <a href="https://forms.gle/xxycEHCLVYyNNxNX9" className="btn btn-primary">Lodge Profile Form</a>
         </div>
       </div>
     </div>
