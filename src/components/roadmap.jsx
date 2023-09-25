@@ -30,6 +30,8 @@ Each lodge is required to fill in a profile form, this not only provides vital i
         </div>
         <div className="buttons">
           <a href="https://forms.gle/xxycEHCLVYyNNxNX9" className="btn btn-primary">Lodge Profile Form</a>
+          <br/><br/>
+          <a href="https://forms.gle/xxycEHCLVYyNNxNX9" className="btn btn-primary">See An Example</a>
         </div>
       </div>
     </div>
