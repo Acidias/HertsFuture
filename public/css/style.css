@@ -520,6 +520,20 @@ header .intro-text {
    margin: 0 auto; /* Center the text block if it's less than max-width */
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
 }
+.events p {
+   color: white;
+   font-size: 16px; /* Default size for desktop */
+   max-width: 800px; /* Ensuring long lines are readable */
+   margin: 0 auto; /* Center the text block if it's less than max-width */
+   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
+}
+
+.incentive p {
+   font-size: 16px; /* Default size for desktop */
+   max-width: 800px; /* Ensuring long lines are readable */
+   margin: 0 auto; /* Center the text block if it's less than max-width */
+   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
+}  
 
 /* Media query for tablets */
 @media (max-width: 991px) {
@@ -889,18 +903,30 @@ label {
    }
 }
 
+/* Media query for laptops and desktops  */
+
+@media (min-width: 994px) {
+   .introduction p {
+      font-size: 24px;
+   }  
+   .roadmap p {
+      font-size: 24px;
+   }
+   .incentive p {
+      font-size: 24px;
+   }
+   .events p {
+      font-size: 24px;
+   }
+}  
+    
+
 /* INCENTIVES */
 #incentive {
    padding: 50px 0;
    background: #f6f6f6;
 }
 
-.incentive p {
-   font-size: 16px; /* Default size for desktop */
-   max-width: 800px; /* Ensuring long lines are readable */
-   margin: 0 auto; /* Center the text block if it's less than max-width */
-   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
-}
 .incentive ul {
    list-style-type: disc; /* This sets the bullet points */
    padding-left: 20px; /* Space from the left side to align bullets */

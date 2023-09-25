@@ -15,6 +15,11 @@ export const Events = (props) => {
         <div className="section-title" data-aos="fade-up">
           <h2>Events Workshops</h2>
         </div>
+        <div className="events text-center"  data-aos="fade-up">
+          <p>
+        Sign up to attend a seminar, this will enable you to find out more about the lodge profile form and give you a chance to ask questions. All are welcome to attend either in person or virtually, and we recommend at least one member of each lodge attends one session.</p><br/><br/>       
+</div>
+
         <div className="row justify-content-center">
         {props.data
             ? props.data.map((d, i) => (
