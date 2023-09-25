@@ -5,6 +5,7 @@ export const WebsiteLinks = (props) => {
     <div id="links">
       <div className="containerlink">
         <div className="links text-center">
+         <h2>Contact Us</h2>
          <p>Web: <a href="https://www.hertfordshirefreemasons.org.uk">www.hertfordshirefreemasons.org.uk</a></p>
          <p>Email: <a href="mailto:comms@hertfordshirefreemasons.org.uk">comms@hertfordshirefreemasons.org.uk</a></p>
          <br/> 
