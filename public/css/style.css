@@ -226,17 +226,7 @@ a:focus,
    outline-offset: none;
 }
 /* Header Section */
-.intro {
-   display: table;
-   width: 100%;
-   padding: 0;
-   background: url(../img/HF-Patten-RGB-1.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed; /* Added this line */
-   padding: 50px 0;
-}
+
 .intro .overlay {
    background: rgba(0, 0, 0, 0.2);
 }
@@ -546,13 +536,26 @@ header .intro-text {
 }
 
 /* RoadMap */
-#roadmap {
+#roadmap,
+.intro,
+#events {
    background: url(../img/HF-Patten-RGB-1.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   background-attachment: fixed; /* Added this line */
+   background-attachment: fixed; /* This will apply for larger screens by default */
    padding: 50px 0;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+   /* Adjust 768px to whatever breakpoint you want */
+   #roadmap,
+   .intro,
+   #events {
+      background-attachment: scroll; /* Default value, not fixed on mobile */
+      /* Add any other adjustments for mobile here */
+   }
 }
 
 .circles {
@@ -664,14 +667,6 @@ header .intro-text {
 }
 
 /* Events */
-#events {
-   background: url(../img/HF-Patten-RGB-1.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed; /* Added this line */
-   padding: 50px 0;
-}
 
 #events .section-title h2 {
    color: white;
