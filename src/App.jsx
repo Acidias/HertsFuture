@@ -7,6 +7,10 @@ import { Roadmap } from "./components/roadmap";
 import { Incentive } from "./components/incentive";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -17,8 +21,14 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
+    AOS.init();
+  }, [])
+
+  useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
+
+  AOS.refresh()
 
   return (
     <div>
@@ -26,10 +36,8 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Roadmap data={landingPageData.Roadmap} />
       <Incentive data={landingPageData.Testimonials} />
-
       <Events data={landingPageData.Events} />
       <WebsiteLinks data={landingPageData.Links} />
-
 
     </div>
   );

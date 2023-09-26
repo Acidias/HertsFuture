@@ -149,7 +149,7 @@ hr {
    background-color: #608dfd;
 }
 .section-title {
-   margin-bottom: 70px;
+   margin-bottom: 40px;
 }
 .section-title h2 {
    font-weight: bold;
@@ -162,11 +162,11 @@ hr {
 
 .roadmap h2::after {
    position: absolute;
-   content: ""; 
+   content: "";
    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
    height: 4px;
    width: 60px;
-   bottom: 0; 
+   bottom: 0;
    margin-left: -30px;
    left: 50%;
 }
@@ -226,16 +226,7 @@ a:focus,
    outline-offset: none;
 }
 /* Header Section */
-.intro {
-   display: table;
-   width: 100%;
-   padding: 0;
-   background: url(../img/HF-Patten-RGB-1.png);
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
-   -o-background-size: cover;
-}
+
 .intro .overlay {
    background: rgba(0, 0, 0, 0.2);
 }
@@ -357,7 +348,6 @@ header .intro-text {
    padding-right: 8px;
 }
 
-
 #about img {
    width: 520px;
    margin-top: 10px;
@@ -463,7 +453,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-   padding: 100px 0;
+   padding: 50px 0;
    background: #f6f6f6;
 }
 #testimonials i {
@@ -503,7 +493,7 @@ header .intro-text {
 }
 
 .section-title {
-   margin-bottom: 50px; /* Space between the title and the introduction */
+   margin-bottom: 30px; /* Space between the title and the introduction */
 }
 
 .roadmap h2 {
@@ -518,13 +508,27 @@ header .intro-text {
 }
 
 .roadmap p {
-   color: white; 
+   color: white;
    font-size: 16px; /* Default size for desktop */
    max-width: 800px; /* Ensuring long lines are readable */
    margin: 0 auto; /* Center the text block if it's less than max-width */
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
-}  
+}
 .introduction p {
+   font-size: 16px; /* Default size for desktop */
+   max-width: 800px; /* Ensuring long lines are readable */
+   margin: 0 auto; /* Center the text block if it's less than max-width */
+   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
+}
+.events p {
+   color: white;
+   font-size: 16px; /* Default size for desktop */
+   max-width: 800px; /* Ensuring long lines are readable */
+   margin: 0 auto; /* Center the text block if it's less than max-width */
+   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
+}
+
+.incentive p {
    font-size: 16px; /* Default size for desktop */
    max-width: 800px; /* Ensuring long lines are readable */
    margin: 0 auto; /* Center the text block if it's less than max-width */
@@ -546,36 +550,111 @@ header .intro-text {
 }
 
 /* RoadMap */
-#roadmap {
+#roadmap,
+.intro,
+#events {
    background: url(../img/HF-Patten-RGB-1.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   background-attachment: fixed; /* Added this line */
+   background-attachment: fixed; /* This will apply for larger screens by default */
    padding: 50px 0;
 }
 
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+   /* Adjust 768px to whatever breakpoint you want */
+   #roadmap,
+   .intro,
+   #events {
+      background-attachment: scroll; /* Default value, not fixed on mobile */
+      /* Add any other adjustments for mobile here */
+   }
+}
+
+.circles {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .circle {
-   width: 90px;
-   height: 90px;
+   width: 150px;
+   height: 150px;
    background-color: white;
    color: #003056;
    border-radius: 50%;
-   display: inline-block;
    line-height: 100px;
    vertical-align: middle; /* This helps to align text vertically centered */
+   font-size: 24px;
    font-weight: bold;
    margin: 0 10px; /* Spacing around each circle */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.circle-month {
+   font-size: 20px; /* Adjust size as needed */
+   color: white; /* Adjust color as needed */
+   text-align: center;
+   font-weight: bold;
+
+   margin-bottom: 5px; /* Space between month and circle */
 }
 
 .arrow {
-   font-size: 50px; /* Adjust size as needed */
+   font-size: 80px; /* Adjust size as needed */
    color: white; /* Color of the arrow */
    display: inline-block;
    vertical-align: middle; /* Align it with the circles */
    margin: 0 10px; /* Adjust spacing between the arrow and circles */
 }
 
+@media (max-width: 768px) {
+   .circle {
+      width: 130px;
+      height: 130px;
+   }
+   .arrow {
+      font-size: 60px;
+   }
+}
+
+@media (max-width: 615px) {
+   .circle {
+      width: 100px;
+      height: 100px;
+      font-size: 16px;
+   }
+   .arrow {
+      font-size: 50px;
+   }
+}
+
+@media (max-width: 500px) {
+   .circles {
+      flex-direction: column;
+   }
+   .circle {
+      width: 150px;
+      height: 150px;
+      font-size: 24px;
+   }
+   .arrow {
+      display: block; /* Make circles and arrows take up the full width */
+      margin: 20px auto; /* Center them and add vertical space */
+      font-size: 60px; /* Adjust size as needed for smaller screens */
+      margin-top: 10px;
+      margin-bottom: 10px;
+      transform: rotate(90deg); /* Rotate arrow to point downwards */
+   }
+}
+
+@media (max-width: 566px) {
+   .roadmap-button {
+      font-size: 11px;
+   }
+}
 #roadmap .buttons {
    max-width: 200px;
    margin: 20px auto 0; /* Add vertical space above the buttons and auto-center */
@@ -605,36 +684,12 @@ header .intro-text {
    }
 }
 
-@media (max-width: 566px) {
-   .roadmap-button {
-      font-size: 11px;
-   }
-}
-@media (max-width: 468px) {
-   .circle,
-   .arrow {
-      display: block; /* Make circles and arrows take up the full width */
-      margin: 20px auto; /* Center them and add vertical space */
-   }
-
-   .arrow {
-      font-size: 50px; /* Adjust size as needed for smaller screens */
-      margin-top: 10px;
-      margin-bottom: 10px;
-      transform: rotate(90deg); /* Rotate arrow to point downwards */
-   }
-}
-
 /* Add this to give space between buttons */
 .mb-2 {
    margin-bottom: 20px;
 }
 
 /* Events */
-#events {
-   background-color: #003056;
-   padding: 50px 0;
-}
 
 #events .section-title h2 {
    color: white;
@@ -653,7 +708,7 @@ header .intro-text {
 }
 
 .btn-primary {
-   background-color: white;
+   background-color: #ffcb05; /* PGL GOLD color */
    color: #003056; /* Blue text */
    border: none;
    padding: 10px 20px;
@@ -662,7 +717,7 @@ header .intro-text {
 
 .btn-primary:hover,
 .btn-primary:focus {
-   background-color: #5ca9fb; /* Adjust as needed */
+   background-color: #e6a804; /* Darker yellow for hover and focus, adjust as needed */
    color: white;
 }
 
@@ -692,10 +747,10 @@ withthisstyling: Icons will have a white,
    margin: 5px 0;
 }
 
-.img-circle{
-   border-radius:50%;
+.img-circle {
+   border-radius: 50%;
    max-width: 100%;
-   height: auto; 
+   height: auto;
 }
 
 #team .team-img {
@@ -857,18 +912,29 @@ label {
    }
 }
 
+/* Media query for laptops and desktops  */
+
+@media (min-width: 994px) {
+   .introduction p {
+      font-size: 24px;
+   }
+   .roadmap p {
+      font-size: 24px;
+   }
+   .incentive p {
+      font-size: 24px;
+   }
+   .events p {
+      font-size: 24px;
+   }
+}
+
 /* INCENTIVES */
 #incentive {
-   padding: 100px 0;
+   padding: 50px 0;
    background: #f6f6f6;
 }
 
-.incentive p {
-   font-size: 16px; /* Default size for desktop */
-   max-width: 800px; /* Ensuring long lines are readable */
-   margin: 0 auto; /* Center the text block if it's less than max-width */
-   padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
-}  
 .incentive ul {
    list-style-type: disc; /* This sets the bullet points */
    padding-left: 20px; /* Space from the left side to align bullets */
