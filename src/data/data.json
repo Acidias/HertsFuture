@@ -70,31 +70,17 @@
   "Events": [
     { 
       "icon": "fa", 
-      "location": "Virtual",
-      "date": "8th October 2023",
+      "location": "Watch the Seminar",
+      "date": "7PM 8th October 2023",
       "image": "img/virtual.jpg",
-      "url": "https://forms.gle/NfApMMbbKs8mFoLC9"
+      "url": "https://forms.gle/RjezzpSFxQehsBk79"
     }, 
     {
       "icon": "fa",
-      "location": "Virtual",
-      "date": "15th October 2023",
+      "location": "Download the presentation",
+      "date": "7PM 15th October 2023",
       "image": "img/virtual-2.jpg",
-      "url": "https://forms.gle/3NZeaceqj6iEYZ2g6"
-    },
-    {
-      "icon": "fa",
-      "location": "Letchworth",
-      "date": "22nd October 2023",
-      "image": "img/letchworth.jpg",
-      "url": "https://forms.gle/F1MMkF3T4MphSSDr9"
-    },
-    { 
-      "icon": "fa",
-      "location": "Cheshunt",
-      "date": "29th October 2023",
-      "image": "img/cheshunt.jpg",
-      "url": "https://forms.gle/kcRxZm721gjt4EDR8"
+      "url": "docs/hert-future-inperson.pdf"
     }
   ],
   "Services": [

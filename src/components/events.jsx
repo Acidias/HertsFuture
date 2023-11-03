@@ -17,7 +17,7 @@ export const Events = (props) => {
         </div>
         <div className="events text-center"  data-aos="fade-up">
           <p>
-        Sign up to attend a seminar, this will enable you to find out more about the lodge profile form and give you a chance to ask questions. All are welcome to attend either in person or virtually, and we recommend at least one member of each lodge attends one session.</p><br/><br/>       
+        All events workshops have now taken place, but you can catch up on a seminar by watching it online. Please complete the form and you will be provided a link to watch the seminar online.</p><br/><br/>  
 </div>
 
         <div className="row justify-content-center">
@@ -25,16 +25,13 @@ export const Events = (props) => {
             ? props.data.map((d, i) => (
                 <div 
                   key={`${d.location}-${i}`} 
-                  className="col-xs-6 col-md-3" 
+                  className="text-center" 
                   data-aos="fade-up"
                   // data-aos-delay={i * delayInterval}
                 >
-                  <img src={d.image} className="img-circle" alt={d.location}></img>
-                  <div className="event-details">
-                    <h4>{d.location}</h4>
-                    <p>{d.date}</p>
-                    <a href={d.url} className="btn btn-primary">Register</a>
-                  </div>
+                  <div className="text-center">
+                    <a href={d.url} className="btn btn-primary">{d.location}</a>
+                  </div><br/>
                 </div>
               ))
             : "loading"}
