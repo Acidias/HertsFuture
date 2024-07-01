@@ -70,17 +70,38 @@
   "Events": [
     { 
       "icon": "fa", 
-      "location": "Watch the Seminar",
-      "date": "7PM 8th October 2023",
+      "location": "Online",
+      "date": "7th July 2024",
       "image": "img/virtual.jpg",
-      "url": "https://forms.gle/RjezzpSFxQehsBk79"
+      "url": "https://forms.gle/zxghDmUCJbmegnuU8"
     }, 
     {
       "icon": "fa",
-      "location": "Download the presentation",
-      "date": "7PM 15th October 2023",
-      "image": "img/virtual-2.jpg",
-      "url": "docs/hert-future-inperson.pdf"
+      "location": "Online",
+      "date": "13th July 2024",
+      "image": "img/virtual.jpg",
+      "url": "https://forms.gle/DCoGodTgw2xc6hqd8"
+    },
+    {
+      "icon": "fa",
+      "location": "Ashwell House, St Albans",
+      "date": "7PM - 16th July 2024",
+      "image": "img/stalbans.jpg",
+      "url": "https://forms.gle/9UZvskJn1GX7g74q9"
+    },
+    {
+      "icon": "fa",
+      "location": "Halsey Hall, Cheshunt",
+      "date": "7PM - 21st July 2024",
+      "image": "img/cheshunt.jpg",
+      "url": "https://forms.gle/cCFTQd8gDSjrNpyX9"
+    },
+    {
+      "icon": "fa",
+      "location": "Cloisters, Letchworth",
+      "date": "7PM - 28th July 2024",
+      "image": "img/letchworth.jpg",
+      "url": "https://forms.gle/pSC58o3DuWQPTp4T7"
     }
   ],
   "Services": [

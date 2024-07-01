@@ -10,14 +10,14 @@ export const Events = (props) => {
   }, [])
   
   return (
-    <div id="events" className="text-center">
+    <div id="incentive" className="text-center">
       <div className="container">
         <div className="section-title" data-aos="fade-up">
           <h2>Events Workshops</h2>
         </div>
-        <div className="events text-center"  data-aos="fade-up">
+        <div className="incentive text-center"  data-aos="fade-up">
           <p>
-        All events workshops have now taken place, but you can catch up on a seminar by watching it online. Please complete the form and you will be provided a link to watch the seminar online.</p><br/><br/>  
+        Sign up to attend a seminar, this will enable you to find out more about the lodge profile form and give you a chance to ask questions. All are welcome to attend either in person or virtually, and we recommend at least one member of each lodge attends one session.</p><br/><br/>       
 </div>
 
         <div className="row justify-content-center">
@@ -25,13 +25,16 @@ export const Events = (props) => {
             ? props.data.map((d, i) => (
                 <div 
                   key={`${d.location}-${i}`} 
-                  className="text-center" 
+                  className="col-xs-6 col-md-3" 
                   data-aos="fade-up"
                   // data-aos-delay={i * delayInterval}
                 >
-                  <div className="text-center">
-                    <a href={d.url} className="btn btn-primary">{d.location}</a>
-                  </div><br/>
+                  <img src={d.image} className="img-circle" alt={d.location}></img>
+                  <div className="event-details">
+                    <h4>{d.location}</h4>
+                    <p>{d.date}</p>
+                    <a href={d.url} className="btn btn-primary">Register</a>
+                  </div>
                 </div>
               ))
             : "loading"}
