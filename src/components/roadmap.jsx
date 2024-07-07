@@ -38,7 +38,7 @@ export const Roadmap = (props) => {
 </div>
 
         <div className="text-center">
-          <a href="https://forms.gle/xxycEHCLVYyNNxNX9" className="btn btn-primary">Lodge Action Plan</a>
+          <a href="docs/Herts-Future-Lodge-Action_plan.docx" className="btn btn-primary">Lodge Action Plan</a>
           <br/>
         </div>
       </div>

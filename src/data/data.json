@@ -2,7 +2,7 @@
   "Header": {
     "title": "Herts Future - Evolving Our Craft",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
-    "url": "https://www.youtube-nocookie.com/embed/UoM_WE5wLHM?autoplay=0&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1"
+    "url": "https://www.youtube-nocookie.com/embed/0DMYAlad96I?autoplay=0&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -68,13 +68,6 @@
   ],
 
   "Events": [
-    { 
-      "icon": "fa", 
-      "location": "Online",
-      "date": "7th July 2024",
-      "image": "img/virtual.jpg",
-      "url": "https://forms.gle/zxghDmUCJbmegnuU8"
-    }, 
     {
       "icon": "fa",
       "location": "Online",
@@ -102,6 +95,13 @@
       "date": "7PM - 28th July 2024",
       "image": "img/letchworth.jpg",
       "url": "https://forms.gle/pSC58o3DuWQPTp4T7"
+    },
+    {
+      "icon": "fa",
+      "location": "Online",
+      "date": "30th July 2024",
+      "image": "img/virtual.jpg",
+      "url": "https://forms.gle/PeDv4JxjT8kAq2XL6"
     }
   ],
   "Services": [

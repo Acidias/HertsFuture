@@ -1964,7 +1964,9 @@ pre code {
     width: 33.33333333%;
   }
   .col-md-3 {
+    margin-top: 20px;
     width: 25%;
+    col-md-3
   }
   .col-md-2 {
     width: 16.66666667%;

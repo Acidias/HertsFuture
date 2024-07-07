@@ -523,7 +523,7 @@ header .intro-text {
 .events p {
    font-size: 16px; /* Default size for desktop */
    max-width: 800px; /* Ensuring long lines are readable */
-   margin: 0 auto; /* Center the text block if it's less than max-width */
+   margin: 20 auto; /* Center the text block if it's less than max-width */
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
 }
 
@@ -733,8 +733,16 @@ i {
 @media (max-width: 991px) {
    .col-md-3 {
       margin-bottom: 40px;
+      margin-top: 15px;
    }
 }
+
+@media (max-width: 2000px) {
+   .col-md-3 {
+      margin-top: 15px;
+   }
+}
+
 withthisstyling: Icons will have a white,
    rounded background. The main section will have a gradient background
       transitioning from dark blue to lighter blue. /* Team Section */ #team {
