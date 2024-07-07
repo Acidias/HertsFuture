@@ -9,7 +9,7 @@ export const WebsiteLinks = (props) => {
          <p>Web: <a href="https://www.hertfordshirefreemasons.org.uk">www.hertfordshirefreemasons.org.uk</a></p>
          <p>Email: <a href="mailto:comms@hertfordshirefreemasons.org.uk">comms@hertfordshirefreemasons.org.uk</a></p>
          <br/> 
-         <p>© Hertfordshire Provincial Grand Lodge - 2023</p> 
+         <p>© Hertfordshire Provincial Grand Lodge - 2024</p> 
         </div>
       </div>
     </div>

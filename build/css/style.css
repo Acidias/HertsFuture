@@ -521,7 +521,6 @@ header .intro-text {
    padding: 0 15px; /* A little padding to ensure text doesn't touch the screen edge */
 }
 .events p {
-   color: white;
    font-size: 16px; /* Default size for desktop */
    max-width: 800px; /* Ensuring long lines are readable */
    margin: 0 auto; /* Center the text block if it's less than max-width */
@@ -698,12 +697,10 @@ header .intro-text {
 .event-details h4 {
    font-weight: bold;
    margin-top: 10px;
-   color: white;
 }
 
 .event-details p {
    margin-bottom: 15px;
-   color: white;
    font-size: 12px;
 }
 

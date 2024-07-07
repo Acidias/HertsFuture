@@ -2,7 +2,7 @@
   "Header": {
     "title": "Herts Future - Evolving Our Craft",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
-    "url": "https://www.youtube-nocookie.com/embed/UoM_WE5wLHM?autoplay=0&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1"
+    "url": "https://www.youtube-nocookie.com/embed/0DMYAlad96I?autoplay=0&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -68,33 +68,40 @@
   ],
 
   "Events": [
-    { 
-      "icon": "fa", 
-      "location": "Virtual",
-      "date": "8th October 2023",
+    {
+      "icon": "fa",
+      "location": "Online",
+      "date": "13th July 2024",
       "image": "img/virtual.jpg",
-      "url": "https://forms.gle/NfApMMbbKs8mFoLC9"
-    }, 
-    {
-      "icon": "fa",
-      "location": "Virtual",
-      "date": "15th October 2023",
-      "image": "img/virtual-2.jpg",
-      "url": "https://forms.gle/3NZeaceqj6iEYZ2g6"
+      "url": "https://forms.gle/DCoGodTgw2xc6hqd8"
     },
     {
       "icon": "fa",
-      "location": "Letchworth",
-      "date": "22nd October 2023",
-      "image": "img/letchworth.jpg",
-      "url": "https://forms.gle/F1MMkF3T4MphSSDr9"
+      "location": "Ashwell House, St Albans",
+      "date": "7PM - 16th July 2024",
+      "image": "img/stalbans.jpg",
+      "url": "https://forms.gle/9UZvskJn1GX7g74q9"
     },
-    { 
+    {
       "icon": "fa",
-      "location": "Cheshunt",
-      "date": "29th November 2023",
+      "location": "Halsey Hall, Cheshunt",
+      "date": "7PM - 21st July 2024",
       "image": "img/cheshunt.jpg",
-      "url": "https://forms.gle/kcRxZm721gjt4EDR8"
+      "url": "https://forms.gle/cCFTQd8gDSjrNpyX9"
+    },
+    {
+      "icon": "fa",
+      "location": "Cloisters, Letchworth",
+      "date": "7PM - 28th July 2024",
+      "image": "img/letchworth.jpg",
+      "url": "https://forms.gle/pSC58o3DuWQPTp4T7"
+    },
+    {
+      "icon": "fa",
+      "location": "Online",
+      "date": "30th July 2024",
+      "image": "img/virtual.jpg",
+      "url": "https://forms.gle/PeDv4JxjT8kAq2XL6"
     }
   ],
   "Services": [

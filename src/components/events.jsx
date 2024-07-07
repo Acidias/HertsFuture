@@ -10,14 +10,16 @@ export const Events = (props) => {
   }, [])
   
   return (
-    <div id="events" className="text-center">
+    <div id="incentive" className="text-center">
       <div className="container">
         <div className="section-title" data-aos="fade-up">
           <h2>Events Workshops</h2>
         </div>
-        <div className="events text-center"  data-aos="fade-up">
+        <div className="incentive text-center"  data-aos="fade-up">
           <p>
-        Sign up to attend a seminar, this will enable you to find out more about the lodge profile form and give you a chance to ask questions. All are welcome to attend either in person or virtually, and we recommend at least one member of each lodge attends one session.</p><br/><br/>       
+We have a variety of online and in-person workshops for you to attend. These will give you
+all the information needed to complete the form. Anybody can attend these events, but we
+ask that you register with us before attending. </p>
 </div>
 
         <div className="row justify-content-center">
@@ -36,7 +38,7 @@ export const Events = (props) => {
                     <a href={d.url} className="btn btn-primary">Register</a>
                   </div>
                 </div>
-              ))
+             ))
             : "loading"}
         </div>
       </div>
