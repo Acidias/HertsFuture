@@ -17,30 +17,18 @@ export const Events = (props) => {
         </div>
         <div className="incentive text-center"  data-aos="fade-up">
           <p>
-We have a variety of online and in-person workshops for you to attend. These will give you
-all the information needed to complete the form. Anybody can attend these events, but we
-ask that you register with us before attending. </p>
+All workshops have now finished, however you are welcome to watch a recording of our online seminar along with downloading the slides.
+</p>
+ </div>
+<div className="incentive text-center"  data-aos="fade-up">
+<p>&nbsp;</p>
+<p>
+<a href="https://forms.gle/fH1HVGs18yoYVRo4A" className="btn btn-primary">&nbsp;&nbsp;Watch the video&nbsp;&nbsp;</a> &nbsp;&nbsp;&nbsp;
+<a href="./docs/Herts-Future-Phase2.pdf" className="btn btn-primary">Download the Slides</a> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 </div>
 
-        <div className="row justify-content-center">
-        {props.data
-            ? props.data.map((d, i) => (
-                <div 
-                  key={`${d.location}-${i}`} 
-                  className="col-xs-6 col-md-3" 
-                  data-aos="fade-up"
-                  // data-aos-delay={i * delayInterval}
-                >
-                  <img src={d.image} className="img-circle" alt={d.location}></img>
-                  <div className="event-details">
-                    <h4>{d.location}</h4>
-                    <p>{d.date}</p>
-                    <a href={d.url} className="btn btn-primary">Register</a>
-                  </div>
-                </div>
-             ))
-            : "loading"}
-        </div>
       </div>
     </div>
   );
