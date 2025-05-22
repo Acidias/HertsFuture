@@ -22,7 +22,7 @@ export const Header = (props) => {
               
               {/* Logo */}
               <div className="text-center mt-[25]" data-aos="fade-up">
-                <img src="../img/Logo-white.png" alt="Logo" className="header-logo"/>
+                <img src="../img/logo-p3.png" alt="Logo" className="header-logo"/>
               </div>
               <br/>
               {/* Video */}

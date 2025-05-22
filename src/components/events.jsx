@@ -13,13 +13,17 @@ export const Events = (props) => {
     <div id="incentive" className="text-center">
       <div className="container">
         <div className="section-title" data-aos="fade-up">
-          <h2>Events Workshops</h2>
+          <h2>Workshops</h2>
         </div>
         <div className="incentive text-center"  data-aos="fade-up">
           <p>
-We have a variety of online and in-person workshops for you to attend. These will give you
-all the information needed to complete the form. Anybody can attend these events, but we
-ask that you register with us before attending. </p>
+To complete Herts Future Phase 2, each lodge will send a representative to attend
+one of the many workshops across the Province. Anyone from your lodge can join, though
+it&#39;s especially useful for Secretaries, Membership Officers, and Masters. And remember,
+you&#39;re welcome to bring along as many members as you like, the more, the merrier!
+
+
+</p>
 </div>
 
         <div className="row justify-content-center">

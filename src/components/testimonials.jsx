@@ -11,10 +11,16 @@ export const Testimonials = (props) => {
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center" data-aos="fade-up">
-          <h2>Evolving Our Craft - Phase 2</h2>
+          <h2>GROW YOUR LODGE</h2>
         </div>
         <div className="introduction text-center" data-aos="fade-up">
-          <p>Herts Future is designed with three primary goals in mind: to encourage lodges to pause, discuss, assess, and plan their activities; to reintegrate fun into Freemasonry; and to attract new members. By achieving these objectives, Herts Future aims to breathe new life into the craft, ensuring it remains vibrant and appealing to both current and prospective members.
+          <p>Join us for an interactive Herts Future Workshop where Freemasons from across
+Hertfordshire will come together to crack the code on attracting new members. With practical
+advice, lively round-table discussions, and plenty of lightbulb moments, you&#39;ll leave with
+fresh ideas tailored to your lodge and a renewed sense of purpose. Featuring insights from
+the new UGLE brand and how to look after your candidates, this 90-minute session is your
+springboard to a stronger, more vibrant lodge. Let&#39;s build the future of Freemasonry in
+Hertfordshire together.
 
 </p>
         </div>

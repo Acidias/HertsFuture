@@ -2,7 +2,7 @@
   "Header": {
     "title": "Herts Future - Evolving Our Craft",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
-    "url": "https://www.youtube-nocookie.com/embed/0DMYAlad96I?autoplay=0&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1"
+    "url": "https://www.youtube-nocookie.com/embed/q4vJkNjE7xM?autoplay=0&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -70,38 +70,32 @@
   "Events": [
     {
       "icon": "fa",
-      "location": "Online",
-      "date": "13th July 2024",
-      "image": "img/virtual.jpg",
-      "url": "https://forms.gle/DCoGodTgw2xc6hqd8"
+      "location": "Cloisters, Letchworth",
+      "date": "3rd June 2025",
+      "image": "img/letchworth.jpg",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfIAqdwPfikt8ZkLQ1t5f4TMGdghP4FOC6M-RZt1oUle49BgA/viewform"
     },
     {
       "icon": "fa",
       "location": "Ashwell House, St Albans",
-      "date": "7PM - 16th July 2024",
+      "date": "9th June 2025",
       "image": "img/stalbans.jpg",
-      "url": "https://forms.gle/9UZvskJn1GX7g74q9"
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSck_uuazixYYSoVC_oBzyeAWUTGc3qM3Pe6Aj6T-TEBPGtlKA/viewform"
+    },
+
+    {
+      "icon": "fa",
+      "location": "Halsey Hall, Watford",
+      "date": "16th July 2025",
+      "image": "img/watford.png", 
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfDPBnDvnmKbmNMK967379vK1oWAs1vUfCkWI69oa6I5dbl4w/viewform"
     },
     {
       "icon": "fa",
       "location": "Halsey Hall, Cheshunt",
-      "date": "7PM - 21st July 2024",
+      "date": "24th July 2025",
       "image": "img/cheshunt.jpg",
-      "url": "https://forms.gle/cCFTQd8gDSjrNpyX9"
-    },
-    {
-      "icon": "fa",
-      "location": "Cloisters, Letchworth",
-      "date": "7PM - 28th July 2024",
-      "image": "img/letchworth.jpg",
-      "url": "https://forms.gle/pSC58o3DuWQPTp4T7"
-    },
-    {
-      "icon": "fa",
-      "location": "Online",
-      "date": "30th July 2024",
-      "image": "img/virtual.jpg",
-      "url": "https://forms.gle/PeDv4JxjT8kAq2XL6"
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf1P56tkHpaK-xp5AnCtMjxqplA5kNannhnioY9bZfg2i_sDA/viewform"
     }
   ],
   "Services": [

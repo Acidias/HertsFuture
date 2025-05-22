@@ -12,36 +12,15 @@ export const Roadmap = (props) => {
         <br/>
       <div className="container">
         <div className="roadmap text-center section-title" data-aos="fade-up">
-          <h2>Action Plan</h2>
+          <h2>KEEPING IT SIMPLE</h2>
         </div>
       </div>
         <div className="roadmap text-center"  data-aos="fade-up">
-          <p>Each lodge is now required to create an action plan. Using the previous lodge profile, this action plan will enable each lodge to assign individual tasks. We are doing this process once again in three simple steps.</p>
+          <p>To complete Herts Future Phase 2, each lodge will send a representative to attend
+one of the many workshops across the Province. Anyone from your lodge can join, though
+it&#39;s especially useful for Secretaries, Membership Officers, and Masters. And remember,
+you&#39;re welcome to bring along as many members as you like, the more, the merrier!</p>
         </div>
-      <br/><br/>
-      <div className="container" >
-<div className="circles mb-6">
-  <div>
-  <div className="circle-month" data-aos="fade-up">JULY</div>
-  <div className="circle" data-aos="fade-up">PREPARE</div>
-  </div>
-  <div className="arrow">&gt;</div>
-  <div>
-  <div className="circle-month" data-aos="fade-up">AUG</div>
-  <div className="circle" data-aos="fade-up">COMPLETE</div>
-  </div>
-  <div className="arrow">&gt;</div>
-  <div>
-  <div className="circle-month" data-aos="fade-up">SEPT</div>
-  <div className="circle" data-aos="fade-up">SUBMIT</div>
-  </div>
-</div>
-
-        <div className="text-center">
-          <a href="docs/Herts-Future-Lodge-Action_plan.docx" className="btn btn-primary">Lodge Action Plan</a>
-          <br/>
-        </div>
-      </div>
-    </div>
+     </div>
   );
 };
