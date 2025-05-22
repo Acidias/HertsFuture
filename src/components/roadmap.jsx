@@ -16,7 +16,7 @@ export const Roadmap = (props) => {
         </div>
       </div>
         <div className="roadmap text-center"  data-aos="fade-up">
-          <p>To complete Herts Future Phase 2, each lodge will send a representative to attend
+          <p>To complete Herts Future Phase 3, each lodge will send a representative to attend
 one of the many workshops across the Province. Anyone from your lodge can join, though
 it&#39;s especially useful for Secretaries, Membership Officers, and Masters. And remember,
 you&#39;re welcome to bring along as many members as you like, the more, the merrier!</p>
