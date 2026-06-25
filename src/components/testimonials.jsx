@@ -11,16 +11,16 @@ export const Testimonials = (props) => {
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center" data-aos="fade-up">
-          <h2>GROW YOUR LODGE</h2>
+          <h2>MANAGING ENQUIRIES</h2>
         </div>
         <div className="introduction text-center" data-aos="fade-up">
-          <p>Join us for an interactive Herts Future Workshop where Freemasons from across
-Hertfordshire will come together to crack the code on attracting new members. With practical
-advice, lively round-table discussions, and plenty of lightbulb moments, you&#39;ll leave with
-fresh ideas tailored to your lodge and a renewed sense of purpose. Featuring insights from
-the new UGLE brand and how to look after your candidates, this 90-minute session is your
-springboard to a stronger, more vibrant lodge. Let&#39;s build the future of Freemasonry in
-Hertfordshire together.
+          <p>Join us for a practical and interactive workshop designed to help Hertfordshire Lodges
+approach candidate enquiries with greater confidence and consistency. Through role-play
+scenarios, group discussion and shared learning, participants will explore how to ask
+effective questions, understand a candidate&#39;s true motivations, address misconceptions and
+manage expectations honestly from the outset. The session will help Lodges create a
+welcoming and positive experience while ensuring that prospective members are suitable,
+fully informed and introduced to Freemasonry in the best way.
 
 </p>
         </div>

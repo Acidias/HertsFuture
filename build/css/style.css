@@ -281,9 +281,13 @@ header .intro-text {
 /* Media query for mobile screens */
 @media (max-width: 767px) {
    .header-logo {
-      width: 30%;
+      width: 55%;
       max-width: none;
       margin: 20px auto 5px; /* Adjust spacing for mobile screens */
+   }
+
+   .header-video-wrap {
+      width: 95% !important; /* Wider video on mobile */
    }
 
    .intro h1 {
@@ -930,6 +934,12 @@ label {
 #incentive {
    padding: 50px 0;
    background: #f6f6f6;
+}
+
+#incentive .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .incentive ul {

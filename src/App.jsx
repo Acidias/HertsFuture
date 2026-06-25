@@ -33,8 +33,8 @@ const App = () => {
     <div>
       <Header data={landingPageData.Header} />
       <Testimonials data={landingPageData.Testimonials} />
-      <Roadmap data={landingPageData.Roadmap} />
       <Events data={landingPageData.Events} />
+      <Roadmap data={landingPageData.Roadmap} />
       <WebsiteLinks data={landingPageData.Links} />
 
     </div>

@@ -28,8 +28,8 @@ you like, it doesn&#39;t need to be at your lodge&#39;s masonic centre.
         {props.data
             ? props.data.map((d, i) => (
                 <div 
-                  key={`${d.location}-${i}`} 
-                  className="col-xs-6 col-md-3" 
+                  key={`${d.location}-${i}`}
+                  className="col-xs-6 col-md-3"
                   data-aos="fade-up"
                   // data-aos-delay={i * delayInterval}
                 >

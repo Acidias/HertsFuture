@@ -22,11 +22,11 @@ export const Header = (props) => {
               
               {/* Logo */}
               <div className="text-center mt-[25]" data-aos="fade-up">
-                <img src="../img/logo-p3.png" alt="Logo" className="header-logo"/>
+                <img src="../img/Phase4-Logo.gif" alt="Logo" className="header-logo"/>
               </div>
               <br/>
               {/* Video */}
-              <div className="text-center my-[25] mx-auto w-2/3" data-aos="fade-up"> {/* Added `mx-auto` and `w-1/2` here */}
+              <div className="header-video-wrap text-center my-[25] mx-auto w-2/3" data-aos="fade-up"> {/* Added `mx-auto` and `w-1/2` here */}
                 <div className="header-video aspect-video">
                   <iframe 
                     width={"100%"}
